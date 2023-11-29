@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    
+    <title>Table</title>
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="dashboard-wrapper" style="background-color: blue; width: 500px;">
+      <aside class="sidebar" style="width: 350px;">
+        <div class="sidebar__header" style="display: flex;">
+         <div class="logo" >
+          <a href="#">
+          <img src="./img/Smart.svg" alt="Smart logo">
+          <span>ТОО «Smart»</span>
+        </a>
+         </div>
+
+         <div class="settings">
+          <a href="#">
+            <img src="./img/settings2.svg" alt="settings">
+          </a>
+         </div>
+        </div>
+
+      <nav class="sidebar__nav">
+          <ul>
+            <li><a href="#"><img src="./img/icon1.svg" alt=""><span>Компания</span></a></li>
+            <li><a href="#"><img src="./img/icon2.svg" alt=""><span>Счета</span></a></li>
+            <li><a href="#"><img src="./img/icon3.svg" alt=""><span>Торговые точки</span></a></li>
+            <li><a href="#"><img src="./img/icon4.svg" alt=""><span>Сотрудники</span></a></li>
+            <li><a href="#"><img src="./img/icon5.svg" alt=""><span>Интеграция</span></a></li>
+            <li><a href="#"><img src="./img/icon6.svg" alt=""><span>Отчёты и финансы</span></a></li>
+            <li><a href="#"><img src="./img/icon7.svg" alt=""><span>Организации</span></a></li>
+            <li><a href="#"><img src="./img/icon8.svg" alt=""><span>Доверенные счета</span></a></li>
+            <li><a href="#"><img src="./img/icon9.svg" alt=""><span>Услуги</span></a></li>
+          </ul>
+      </nav>
+        <div class="sidebar__footer">
+           <p>
+            <img src="./img/iconfooter.svg" alt="icon footer">
+            <span>Свернуть панель</span>
+          </p>
+        </div>
+      </aside>
+    </div>
+      <table>
+        <!-- <nav class="nav">
+          <div class="navbar">
+            <h2>Show</h2>
+            <span class="span">10<img src="./img/down.svg" alt="" /></span>
+            <h2>entries</h2>
+            <div class="input">
+              <img src="./img/search.svg" alt="search" />
+              <input class="search" type="text" placeholder="search" />
+            </div>
+          </div>
+          <button class="nav__btn">
+            <img src="./img/plus.svg" alt="" /> Add Customer
+          </button>
+        </nav> -->
+        <tr class="hero">
+          <th>
+            <h2>Номер счета</h2>
+          </th>
+          <th>
+            <h2>
+              Время и дата
+              <img src="./img/downup.svg" class="images" alt="Down-up icon" />
+            </h2>
+          </th>
+          <th>
+            <h2>Торговая точка / Оперция <img src="./img/downup.svg" alt="Down-up icon" /></h2>
+          </th>
+          <th>
+            <h2>Сумма <img src="./img/downup.svg" alt="Down-up icon" /></h2>
+          </th>
+          <th>
+            <h2>Получено</h2>
+          </th>
+          <th>
+            <h2>Статус</h2>
+          </th>
+          <th>
+            <h2>Action</h2>
+          </th>
+        </tr>
+        <tr>
+          <td>№32467</td>
+          <td class="name-column"> 11:20 05.01.2019</td>
+          <td>Smart Лазурный</td>
+          <td>1500 тг <br><span>−150 тг</span></td>
+          <td></td>
+          <td class="Оплачено">Оплачено</td>
+          <td>
+         
+          </td>
+        </tr>
+        <tr>
+          <td>№32466</td>
+          <td class="name-column">
+          21:18 02.01.2019
+          </td>
+          <td>Smart Ишим</td>
+          <td>3 850 тг</td>
+          <td></td>
+          <td class="delivered">Отклонено</td>
+          <td>
+          
+          </td>
+        </tr>
+        <tr>
+          <td>Вывод</td>
+          <td class="name-column">00:00 31.12.2018</td>
+          <td>-</td>
+          <td>−16 335 тг</td>
+          <td></td>
+          <td class="process">Вывод средств</td>
+          <td>
+           
+          </td>
+        </tr>
+        <tr>
+          <td>№32467</td>
+          <td class="name-column">11:20 29.12.2018</td>
+          <td>Smart Лазурный</td>
+          <td>1000 тг</td>
+          <td></td>
+          <td class="process">Отклонено</td>
+          <td>
+           
+          </td>
+        </tr>
+        <tr>
+          <td>№32467</td>
+          <td class="name-column">
+            11:20 29.12.2018
+          </td>
+          <td>Smart Лазурный</td>
+          <td>1500 тг <br><span>−150 тг</span></td>
+          <td>1350 тг</td>
+          <td class="Оплачено">Оплачено</td>
+          <td>
+
+          </td>
+        </tr>
+        <tr>
+          <td>Комиссия</td>
+          <td class="name-column">11:20 29.12.2018</td>
+          <td>-</td>
+          <td class="redtext">−168 тг</td>
+          <td></td>
+          <td class="delivered">Комиссия</td>
+          <td>
+          </td>
+        </tr>
+        <tr>
+          <td>№32467</td>
+          <td class="name-column">11:20 29.12.2018</td>
+          <td>Smart Лазурный</td>
+          <td>1500 тг <br><span>−150 тг</span></td>
+          <td>1350 тг</td>
+          <td class="Оплачено">Оплачено</td>
+          <td>
+
+          </td>
+        </tr>
+        <tr>
+          <td>№32467</td>
+          <td class="name-column">  11:20 29.12.2018        </td>
+          <td>Smart Ишим</td>
+          <td>9 980 тг <br><span>−998 тг</span></td>
+          <td>8 982 тг</td>
+          <td class="Оплачено">Оплачено</td>
+          <td>
+
+          </td>
+        </tr>
+      </table>
+    
+    </div>
+  </body>
+</html>
